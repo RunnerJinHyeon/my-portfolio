@@ -35,9 +35,12 @@ const Intro = () => {
                     <div className="w-[20vh] h-[20vh] flex justify-center ">
                         <img className="w-[16vh] h-[20vh] rounded-md shadow-md" src={profileimg} alt="프로필이미지"/>
                     </div>
-                    <div className="w-[50vh] h-[50vh]" >
-                        <h1 className="text-4xl mb-2 w-[300px] h-[100px] text-center inline-flex items-start font-bold text-gray-700">김진현입니다</h1>
-                        
+                    <div className="w-[50vh]" >
+                        <h1 className="text-center w-[50vh] text-3xl">안녕하세요</h1>
+
+                        <h1 className="text-center w-[50vh] text-3xl my-4">프론트엔드 개발자</h1>
+                        <h1 className="text-4xl mb-2 w-[50vh] h-[100px] text-center  font-bold text-gray-700">김진현입니다</h1>
+
                     </div>
                     </div>
                     
